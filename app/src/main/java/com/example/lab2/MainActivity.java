@@ -11,13 +11,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+//    public void clickFunction(View view) {
+//
+//        Log.i("Info", "Button pressed");
+//
+//    }
+
     public void clickFunction(View view) {
-
-        Log.i("Info", "Button pressed");
-
-    }
-
-    public void clickFunction2(View view) {
 
         EditText myTextField = (EditText) findViewById(R.id.myTextField);
         String str = myTextField.getText().toString();
